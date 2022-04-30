@@ -1,2 +1,8 @@
-# NotRandom-Passwords
-One page plain HTML/CSS/JS
+
+# NotRandom Passwords Geenrator
+
+Simple password generator. Choose from one of the 4 generated passwords.
+## Demo
+
+Insert gif or link to demo
+
