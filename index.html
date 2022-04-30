@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Password Generator</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;1,200;1,300;1,400&display=swap" rel="stylesheet">
+        <link href='https://css.gg/loadbar.css' rel='stylesheet'>
+        <link href="styles.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://unpkg.com/tippy.js@6/animations/scale.css"/>
+        <link rel="stylesheet" href="https://unpkg.com/tippy.js@6/themes/light.css">     
+    </head>
+
+    <body>
+       
+    
+        
+        <main>
+        <section class="generate">
+            <div>
+                <p id= "generate">Generate a</p>
+                <p id="random">random password</p>
+                <p id="never">Never use an insecure password again.</p>
+                
+            
+            </div>
+
+            <div class="passnum">
+                <button id="main-btn" onclick="generatePass()">Generate Passwords</button>
+                <p># of symbols</p>
+                <input id="input" type="number" min="5" max="16" value="5">
+             
+            </div>
+        </section>
+        <hr>
+
+        <section class="passwords">
+            <button class="password" id="pass1" data-tippy-content="Copied!" onclick="copyPass(this.id)"> Password 1</button>
+            <button class="password" id="pass2" data-tippy-content="Copied!" onclick="copyPass(this.id)"> Password 2</button>
+            <button class="password" id="pass3" data-tippy-content="Copied!" onclick="copyPass(this.id)"> Password 3</button>
+            <button class="password" id="pass4" data-tippy-content="Copied!" onclick="copyPass(this.id)"> Password 4</button>
+        </section>
+
+       
+    </main>
+  
+
+    <script src="https://unpkg.com/@popperjs/core@2/dist/umd/popper.min.js"></script>
+    <script src="https://unpkg.com/tippy.js@6/dist/tippy-bundle.umd.js"></script>
+
+    <script src="script.js"></script>
+
+   
+
+
+    </body>
+</html>

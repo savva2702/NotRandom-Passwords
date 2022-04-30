@@ -1,0 +1,107 @@
+body{
+    
+    background-color: #1C1C1C;
+    
+    font-family: 'Montserrat', sans-serif;
+}
+
+main{
+    background-color: #1F2937;
+    font-family: 'Montserrat', sans-serif;
+    width: 40%;
+    margin:auto ;
+    margin-top: 200px;
+
+    padding: 45px;
+
+}
+
+#generate{
+    font-size: x-large;
+    font-weight: 550;
+    color:#4adf86c9;
+    
+    margin-bottom: 2px;
+}
+
+#random{
+    font-family: monospace;
+    font-size: x-large;
+    font-weight: 550;
+    color:#fff;
+    
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+#never{
+    color:aliceblue;
+    font-size: small;
+    font-family: monospace;
+    
+}
+
+#main-btn{
+    background-color: #16ad52da;
+    color: whitesmoke;
+    border-radius: 12px;
+    padding-left: 5px;
+    border: hidden;
+    padding-right:5px ;
+    font-size: large;
+    margin-right:30px;
+    border:hidden;
+    /* box-shadow: 0px 3px rgb(66, 65, 65); */
+    
+   
+}
+
+
+  #main-btn:hover {
+    box-shadow: 0.2rem 0.2rem 0 black;
+    transform: translate(-0.1rem, -0.1rem);
+  }
+  
+  #main-btn:active {
+    box-shadow: 0 0 0 black;
+    transform: translateY(2px);
+  }
+
+
+.passnum{
+
+    display: flex;
+    color: aliceblue;
+    font-size: small;
+   
+}
+
+input{
+    border-radius: 10px;
+    margin-left:15px;
+    font-stretch: condensed;
+    padding-left: 7px;
+}
+
+
+.passwords{
+    
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.password{
+    margin-top:35px;
+    margin-right: 20px;
+    background-color: aliceblue;
+    text-align: center;
+    border-radius: 12px;
+    font-size: x-large;
+    font-family: monospace;
+    
+
+}
+
+#btnTip{
+    margin-top: 100px;
+}
